@@ -19,3 +19,4 @@ $tb='<table border="1">';
     }
 $tb.='</table>';
 echo $tb;
+?>

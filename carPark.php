@@ -5,10 +5,11 @@ $car = array (
     "Skoda" => array("model"=>"Fabia", "price"=>"9000$", "year"=>"2016")
 );
 
-echo"</br> Информация  об автопарке:</br>";
+echo"</br> Информация об автопарке:</br>";
 foreach ($car as $k => $v) {
     echo "<div> Car #".(++$i).':'."</div>";
     foreach($v as $k1=>$v1){
         echo "$k1 - $v1, ";
     }
 }
+?>
